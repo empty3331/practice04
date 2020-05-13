@@ -15,12 +15,12 @@ public class Ex08 {
 			
 			lo[i] = (int)((Math.random()*45)+1);
 
-				
+//				
 			for(int j =0; j<i; j++) {
 				if(lo[i]== lo[j]) {
 					i--; break;
 					}
-				}//작은 for
+			}//작은 for
 				
 	 }//큰 for
 		
